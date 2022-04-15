@@ -1,0 +1,37 @@
+.service {
+    position: relative;
+    min-height: 500px;
+    padding: 70px 0 20px 0;
+    &__wrapper {
+        min-width: 300px;
+        padding: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        
+
+    }
+    i {
+        margin: 0 auto;
+        color: #000;
+        opacity: 0.4;
+        font-size: 34px;
+        margin-top: 100px;
+        &:hover {
+            opacity: 1;
+            font-size: 36px;
+        }
+    }    
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color:#25333c;
+    }
+    &__text {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #25333c;
+    }
+   
+}

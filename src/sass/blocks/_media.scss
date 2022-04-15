@@ -1,0 +1,111 @@
+// template
+// @media (max-width: 1439px) {
+//     .sidepanel {
+//         display: none;
+//     }
+// }
+@media (max-width: 1200px) {
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+}
+
+// @media (max-width: 992px) {
+//     .container {
+//         max-width: 720px;
+//     }
+//     .title {
+//         &_fz36 {
+//             font-size: 30px;
+//         }
+//     }
+//     .about {
+//         &__wrapper {
+//             grid-template-columns: 300px 380px;
+//         }
+//         &__skills {
+//             grid-template-columns: 380px;
+//             grid-auto-rows: minmax(115px, auto);
+//             &-item {
+//                 grid-template-columns: 40px 320px;
+//                 column-gap: 20px;
+//             }
+//         }
+//     }
+//     .resume {
+//         &__wrapper {
+//             padding: 60px 25px 0 25px;
+//             grid-template-columns: repeat(2, 310px);
+//             column-gap: 50px;
+//         }
+//     }
+//     .experience {
+//         &__wrapper {
+//             grid-template-columns: repeat(2, 330px);
+//             justify-content: space-between;
+//         }
+//         &__degree {
+//             padding-top: 50px;
+//             grid-template-columns: repeat(2, 300px);
+//             justify-content: space-between;
+//         }
+//     }
+//     .price {
+//         &__wrapper {
+//             grid-template-columns: repeat(auto-fit, 350px);
+//             padding: 0;
+//         }
+//     }
+//     .contacts {
+//         padding-top: 100px;
+//         &__wrapper {
+//             grid-template-columns: 1fr;
+//         }
+//         &__photo {
+//             display: none;
+//         }
+//     }
+// }
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 2.9em;
+    }
+    .footer__main {
+        flex-direction: column;
+    }
+    .footer__wrapper {
+        width: 100%;
+    }
+    .footer__social {
+        width: 100%;
+    }
+    .footer__contact-form {
+        width: 100%;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer__wrapper-item {
+        display: flex;
+        a {
+            font-size: 14px;
+        }
+        &-text {
+            font-size: 14px;
+            // margin-left: 0;
+        }
+        &-title {
+            display: block;
+            font-size: 14px;
+            // margin-left: 0px;
+        }
+    }
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2px;
+    }
+}
