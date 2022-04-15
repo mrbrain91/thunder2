@@ -1,7 +1,6 @@
 .footer {
-    min-height: 300px;
+    height: 100px;
     background-color: #25333c;
-    padding: 20px;
     &__main {
         margin: 40px 0px 20px 0px;
         display: flex;
@@ -11,51 +10,15 @@
         display: flex;
         justify-content: space-between;
         margin-top: 2px;
-        min-height: 80px;
+        min-height: 50px;
         align-items: center;
         gap: 1fr;
         flex-wrap: wrap;
         &-item {
-            i {
-                color: #fff;
-                font-size: 16px;
-            }
-            &-title {
-                font-weight: 600;
-                color: #fff;
-                font-size: 16px;
-                margin-left: 10px;
-            }
-            &-text {
-                font-weight: 400;
-                color: #fff;
-                font-size: 16px;
-                margin-left: 10px;
-            }
-        }
-        a {
+            font-weight: 400;
             color: #fff;
-            font-size: 16px;
-            text-decoration: none;
-        }
-    }
-    &__title {
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 30px;
-        font-weight: 700;
-        color: #fff;
-        ;
-    }
-    &__social {
-        display: flex;
-        i {
-            color: #fff;
-            font-size: 16px;
-            margin-right: 20px;
-            &:hover {
-                font-size: 24px;
-            }
+            font-size: 14px;
+            margin: 0 auto;
         }
     }
     &__contact {
@@ -117,5 +80,5 @@
 
 footer {
     background-color: #25333c;
-    margin-top: 10px;
+    margin-top: 20px;
 }
