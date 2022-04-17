@@ -1,13 +1,11 @@
 .service {
     position: relative;
-    min-height: 500px;
+    min-height: 370px;
     padding: 70px 0 20px 0;
     &__wrapper {
         min-width: 300px;
-        padding: 20px;
+        padding: 20px 150px 20px 150px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        
-
     }
     i {
         margin: 0 auto;
@@ -19,13 +17,13 @@
             opacity: 1;
             font-size: 36px;
         }
-    }    
+    }
     &__title {
         text-transform: uppercase;
         text-align: center;
         font-size: 30px;
         font-weight: 700;
-        color:#25333c;
+        color: #25333c;
     }
     &__text {
         margin-top: 20px;
@@ -33,5 +31,4 @@
         font-weight: 400;
         color: #25333c;
     }
-   
 }
